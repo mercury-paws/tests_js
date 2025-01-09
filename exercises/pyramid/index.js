@@ -14,6 +14,17 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+function pyramid(n) {
+  let midpoint = Math.floor((2n - 1) / 2);
+
+  for (let row = 0; row < n; row++) {
+    let stair = "";
+
+    for (let column = 0; column <= 2n - 1; column++) {
+      if (midpoint - row <= column && midpoint + row >= column) {
+      }
+    }
+  }
+}
 
 module.exports = pyramid;
